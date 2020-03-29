@@ -1,0 +1,147 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%2345678901234567890123456789012345678901234567890123456789012345678901234567890
+%        1         2         3         4         5         6         7         8
+
+\documentclass[letterpaper, 12 pt, conference]{ieeeconf}  % Comment this line out
+                                                          % if you need a4paper
+%\documentclass[a4paper, 12pt, conference]{ieeeconf}      % Use this line for a4
+                                                          % paper
+\usepackage[spanish]{babel}
+\usepackage[utf8x]{inputenc}
+\IEEEoverridecommandlockouts                              % This command is only
+                                                          % needed if you want to
+                                                          % use the \thanks command
+\overrideIEEEmargins
+% See the \addtolength command later in the file to balance the column lengths
+% on the last page of the document
+
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+
+% The following packages can be found on http:\\www.ctan.org
+%\usepackage{graphics} % for pdf, bitmapped graphics files
+%\usepackage{epsfig} % for postscript graphics files
+%\usepackage{mathptmx} % assumes new font selection scheme installed
+%\usepackage{times} % assumes new font selection scheme installed
+%\usepackage{amsmath} % assumes amsmath package installed
+%\usepackage{amssymb}  % assumes amsmath package installed
+
+\title{\LARGE \bf
+\textquestiondown Qu\'{e} relaci\'{o}n hay entre algunos problemas generados en las matem\'{a}ticas y nuestra actual manera de pensar, actuar y relacionarnos?
+}
+
+%\author{ \parbox{3 in}{\centering Narshion Ngao*
+%         \thanks{*Use the $\backslash$thanks command to put information here}\\
+%         Msc. Computer Systems - 2018\\
+%         Jomo Kenyatta University of Agriculture \& Technology \\
+%       
+%}}
+
+\author{Liliana Marcela Barbosa Esteban\\% <-this % stops a space
+Universidad de Antioquia \\
+Curso: Inform\'{a}tica 2
+}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+\pagestyle{empty}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{.}
+Las matemáticas son el resultado de uno de los mayores esfuerzos colectivos que el ser humano ha hecho a lo largo de la historia. Y así, como el arte y el lenguaje, el origen prehistórico de ésta ciencia es desconocido, pero sea cual sea su punto de partida, ésta “[…], ha llegado hasta nuestros días por dos corrientes principales: el número y la forma. La primera comprendió la aritmética y el álgebra, y la segunda, la geometría”. \cite{c9}.
+\smallskip
+
+Con el fin de desarrollar la pregunta planteada al inicio de éste ensayo, es imprescindible hacer un enfoque a la rama que comprendió “el número”, puesto que la aritmética y el álgebra son la base de ese hermoso edificio lógico de las matemáticas, que a su vez ha presentado una serie de antinomias, las cuales tienen como foco aquella cuestión que fue analizada por primera vez por Eudoxio y Zenón. La cuestión a la que me refiero es a el problema del infinito. Tal problema es retomado más adelante y renombrado como el problema de lo continuo, el cual era apoyado firmemente por el axioma de elección y tiempo después por el principio de buen orden de Zermelo.
+\smallskip
+
+Recordemos que la serie de contraposiciones en las bases de las matemáticas generaron que alrededor de 1870 se iniciaran debates respecto a “[…], la fundamentación del análisis y las definiciones de los números reales”. \cite{c18}.A inicios del siglo XX, se agravó la crisis para la concepción fundamental de conjuntos al descubrirse antinomias en ella. Las contraposiciones nacieron a causa de que Georg Cantor planteó que los conjuntos podían estar formados ya sea por infinitos subconjuntos o elementos. Allí fue donde el problema del infinito volvió a aparecer, ya que a partir de ello, el matemático y filosofo Friedrich Gottlob Frege se dedicó a formalizar la hipótesis, para lo cual se basó en un axioma que implicaba que los conjuntos sólo podían ser normales (no se contienen a sí mismos) o singulares (se contienen a sí mismos). La formalización de aquel matemático fue refutada por Bertrand Russell con una paradoja, basada en un ejemplo como el siguiente: 
+\smallskip
+\begin{quote}
+… un grupo de barberos que afeitan solo a aquellos hombres que no se afeitan a sí mismos. Supongamos que hay un peluquero en esta colección que no se afeita; luego, según la definición de la colección, debe afeitarse. Pero ningún barbero de la colección puede afeitarse. (Si es así, sería un hombre que afeita a hombres que al mismo tiempo se afeita a sí mismo). \cite{c11}. 
+\end{quote}
+\smallskip
+El anterior ejemplo basado en la paradoja de Russell, evidencia que en algún momento en la demostración de Frege existirá al menos un conjunto que no podrá clasificarse en ninguna de sus categorías.
+\smallskip
+
+Eso dio pie a la crisis de los fundamentos, que no fue otra cosa que una disputa respecto a qué tipo metodologías y axiomas deberían de admitirse como fundamentales. Estas, las dificultades esenciales en las matemáticas, dieron pie a teorías revolucionarias más amplias e incluso a la misma computación moderna. Precisamente, el punto de quiebre fue el programa de Hilbert, ya que a partir de él se desplegó el problema de incompletitud, y el razonamiento que se usó fue la base para la computación moderna. 
+\smallskip
+
+El programa metamatemático de Hilbert implicaba que para que un conjunto de axiomas sea lo suficientemente fuerte como para que sea considerado básico, debería de cumplir “[…], la completa formalización de la matemática clásica, se debería emplear razonamientos finitarios para probar la completitud del sistema y el uso de métodos finitarios para probar la consistencia de la teoría”. \cite{c12}. Mejor dicho, el sistema no debería de conducir a contradicciones y la demostración debe ser finita para comprobar tanto la completitud del sistema como la consistencia del mismo. No obstante, el primer ítem del programa de Hilbert fue victoriosamente realizado por Russell y Frege, sin embargo, la dificultad se encontraba en los dos siguientes. 
+\smallskip
+
+Por otro lado, Gödel se enfocó en el segundo punto que exponía David Hilbert porque ello era muy importarte para él, ya que se estaba tratando del conjunto de axiomas que derivaban todas las verdades matemáticas. Entonces, “[…], éste matemático creó la “codificación de Gödel”, ella le permitía a las matemáticas hablar por sí mismas mediante la ubicación de números primos en las declaraciones sobre números” \cite{c7}, y así, por ejemplo, los axiomas de las matemáticas, las deducciones de ellas y todas las declaraciones tendrían un código numérico. La codificación de Gödel es como el sistema ASCII de las computadoras actuales, donde cada carácter tiene un número asociado, así mismo, se podría decir que gracias a la crisis de los fundamentos y otra serie de hechos, hoy en día los computadores tienen ese tipo de codificación para los caracteres imprimibles.
+\smallskip
+
+Retomando a Gödel, él razonó el problema de incompletitud de la siguiente manera: 
+\smallskip
+\begin{quote}
+… si se tiene una hipótesis que no puede ser demostrada por los axiomas que se tienen, pero se puede escribir como una ecuación matemática, eso significa que esa hipótesis será cierta o falsa. Así mismo, si no hay una manera de probar la hipótesis, eso probaría que es cierta porque si no lo fuera, significaría que mediante un proceso finito hay alguna manera de demostrar que es falsa. Entonces, como la declaración es cierta, ello trae consigo que no puede ser demostrada dentro del sistema de axiomas que se tiene, por lo cual, ella pasaría a ser una de las bases de la matemática (un axioma) \cite{c7}. 
+\end{quote}
+\smallskip
+Con lo anterior, Kurt Gödel logró refutar el programa de Hilbert, al demostrar que uno de sus puntos era imposible. 
+\smallskip
+
+Por otra parte, con los grandes avances que dio el gran matemático y pictógrafo Alan Turing, se pudo evidenciar como los múltiples accionares matemáticos dieron a la maquina universal, la cual es el modelo en el que se asientan todos los ordenadores de hoy en día. “Aquel modelo se describía en su trabajo teórico ‘En números computables, con aplicación al problema de decisión’, el cual lo realizó retomando el razonamiento que Gödel usó en la época de la crisis de los fundamentos” \cite{c6}, por consiguiente, se puede apreciar cómo la crisis en las bases de las matemáticas derivó en la computación moderna. De igual importancia, aquella idea de computador de programa almacenado (o sea que en la memoria se guarda los programas que ejecuta y otros datos) fue promovida por John von Neumann en los Estados Unidos y en Inglaterra por Max Newman. 
+\smallskip
+
+Así, pues, la computación es el estudio que se le realizan a ciertos datos con el fin de averiguar el valor de algo, además de que la forma que se hace hoy en día es mediante la electrónica digital, donde la información está codificada en unos y ceros. Un gran ejemplo de dispositivo que tiene como base la electrónica digital es el \textit{smartphone}, y como es usado específicamente por “[…], cuatro de cada cinco individuos entre los 18 y los 44 años” \cite{c5}, se puede evaluar cual es el verdadero impacto de la computación moderna en la forma de pensar, actuar y relacionarnos. 
+\smallskip
+
+El \textit{smartphone} trae consigo beneficios como el acceso a internet, de los cuales existen personas que no manejan esas funciones de la manera correcta trabucando así la realidad, es por ello que cuando éste comenzó a tener un gran auge en la sociedad, se empezaron a presentar casos de “adicción” al teléfono y a internet. En consecuencia, nacieron términos como “nomophobia” (“No mobile phone phobia”) o “phubbing” (interferencia de la comunicación interpersonal por usar el teléfono celular). \cite{c13}. 
+\smallskip
+
+Cabe resaltar, que así como cualquier otro dispositivo puesto en el mercado, posee diferentes tipos de consumidores, existen “[…], tradicionales, musicales e intensivos”. \cite{c14}. La preocupación se encuentra en los dos últimos, puesto que ellos ocupan entre 5 y 14 horas para el uso las características de los dispositivos móviles, lo que implica mayor exposición a Internet. Lo anterior, se explica en el TED, cuando señala “que Internet es como una máquina tragamonedas, donde no se sabe lo que se puede encontrar dentro, y esta variabilidad de recompensa genera dopamina”. \cite{c15}. Precisamente, la dopamina es un químico cerebral que ocasiona la repetición de conductas que nos proporcionan beneficios o placer, lo cual posibilita la dependencia a revisar las notificaciones constantemente. 
+\smallskip
+
+Por otro lado, el enlace entre un consumidor intensivo y el smartphone, no se trata de una relación de adicción donde la persona prefiere este dispositivo antes de realizar cualquier otra actividad, sino de una dependencia a él. La dependencia se trata de la incapacidad de dejar de usar el aparato electrónico, ocasionando desatención a las obligaciones. A razón de que usualmente se suele confundir los términos descritos anteriormente, “[…], algunas personas se consideran adictas al móvil, porque nunca salen de casa sin él, no lo apagan por la noche, están siempre esperando llamadas de familiares o amigos, o lo sobre-utilizan en su vida laboral o social”. \cite{c16}. Entonces, como lo que ocurre en las personas es dependencia a estos dispositivos, no se puede llegar a la conclusión de que las facilidades brindadas por estos ocasionan daños o enfermedades psicológicas.
+\smallskip
+
+Como conclusión, algunos problemas generados en las matemáticas como los que nacieron y se resolvieron en la crisis de los fundamentos generaron un gran impacto en la sociedad. El impacto que se dio en la sociedad fue gracias a que en la crisis se dieron las bases para el nacimiento de la computación moderna e incluso de la codificación ASCII de estas máquinas. Además, también es necesario recalcar que como sociedad deberíamos de hacerle mejor uso a la computación moderna y evitar que consuma gran parte de nuestro tiempo, el cual podríamos emplearlo, incluso, resolviendo otras cuestiones de las matemáticas.
+\medskip
+
+\end{.}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\addtolength{\textheight}{-12cm}   % This command serves to balance the column lengths
+                                  % on the last page of the document manually. It shortens
+                                  % the textheight of the last page by a suitable amount.
+                                  % This command does not take effect until the next page
+                                  % so it should come on the page before the last. Make
+                                  % sure that you do not shorten the textheight too much.
+
+
+\begin{thebibliography}{99}
+
+\bibitem{c1} R. Antonsen, Dirección, Math is the hidden secret to understanding the world. [Película]. 2017. 
+\bibitem{c2} M. d. Sautoy, «Georg Cantor, el matemático que descubrió que hay muchos infinitos y no todos son del mismo tamaño,» BBC, 2 Septiembre 2018. [En línea]. Available: https://www.bbc.com/mundo/noticias-45300219.
+\bibitem{c3} M. Jago, Dirección, Turing Machines Explained. [Película]. 2015.
+\bibitem{c4} A. Tube, Dirección, La Paradoja de Russell. [Película]. 2019.
+\bibitem{c5} N. Arroyo Vázquez, «Smartphones, tabletas y bibliotecas públicas: entendiendo la nueva realidad en el consumo de información,» de XVII Jornadas Bibliotecarias de Andalucía, España, 2013.
+\bibitem{c6} J. Copeland, de The Essential Turing: Seminal Writings in Computing, Logic, Philosophy, Artificial Intelligence, and Artificial Life: Plus The Secrets of Enigma, 2004.
+\bibitem{c7} M. d. Sautoy, Dirección, Teorema de Incompletitud de Gödel. [Película]. 2018.
+\bibitem{c8} J. Grime, Dirección, 158,962,555,217,826,360,000 (Enigma Machine). [Película]. 2013.
+\bibitem{c9} E. Bell, de Historia de las matemáticas, 2016.
+\bibitem{c10} A. Ortiz Fernandez, «Crisis en los fundamentos de la matemática,» 1988.
+\bibitem{c11} «What is Russell's paradox?,» The sciences, 17 Agosto 1998. [En línea]. Available: https://www.scientificamerican.com/article/what-is-russells-paradox/.
+\bibitem{c12} R. Da Silva, «Los teoremas de incompletitud de Gödel, teoría de conjuntos y el programa de David Hilbert.,» 2014. 
+\bibitem{c13} D. A. Barrios Borjas, V. A. Bejar Ramos y V. S. Cauchos Mora, «Uso excesivo de Smartphones/teléfonos celulares: Phubbing y Nomofobia,» Revista chilena de neuro-psiquiatría, 2017. 
+\bibitem{c14} A. v. Weezel y C. Benavides, «Uso de teléfonos móviles por los jóvenes,» Cuadernos de Información, pp. 5-14, 2009. 
+\bibitem{c15} A. Dedyukhina y TED, Dirección, Could you live without a smartphone?. [Película]. 2016.
+\bibitem{c16} X. Carbonell, H. Fúster, A. Chamarro y U. Oberst, «ADICCIÓN A INTERNET Y MÓVIL: UNA REVISIÓN DE ESTUDIOS EMPÍRICOS ESPAÑOLES,» Papeles del Psicólogo, pp. 82-89, 2012.
+\bibitem{c17} Tecnósfera, «Vida social, en lo que más usan los colombianos el celular,» EL TIEMPO, 8 Noviembre 2017.
+\bibitem{c18} J. Ferreirós Domínguez, «Un episodio de la crisis de fundamentos:1904,» 2004, pp. 449-467.
+
+\end{thebibliography}
+
+\end{document}
